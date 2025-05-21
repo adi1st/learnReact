@@ -1,5 +1,6 @@
 function Input(props) {
-  const { type, placeholder, name } = props;
+  const { type, placeholder, name, isRequired } = props;
+
   return (
     <input
       type={type}
@@ -7,6 +8,7 @@ function Input(props) {
       placeholder={placeholder}
       name={name}
       id={name}
+      required={isRequired ? true : false}
     />
   );
 }
