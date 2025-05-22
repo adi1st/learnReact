@@ -85,7 +85,7 @@ export default function ProductsPage() {
         </div>
         <div className="w-2/6">
           <h1 className="text-3xl font-bold text-blue-600 ml-5 mb-2">Cart</h1>
-          <table className="text-left table-auto border-separate border-spacing-x-5">
+          <table className="text-left table-auto border-collapse border-spacing-x-5">
             <thead>
               <tr>
                 <th>Product</th>
